@@ -35,4 +35,18 @@
      ##.... ##: #########: ##::::::: ##. ##::: ##...:::: ##.. ##:::
      ##:::: ##: ##.... ##: ##::: ##: ##:. ##:: ##::::::: ##::. ##::
      ##:::: ##: ##:::: ##:. ######:: ##::. ##: ########: ##:::. ##:
+// OAUTH (to enable, change to yes and edit)
+$enablefb = "no";
+$enablegoog = "no";
+
+// "CHANGE THIS" = Replace with your details
+// Facebook
+define('FB_APP_ID', 'CHANGE THIS'); // Your application ID, see https://developers.facebook.com/docs/apps/register
+define('FB_APP_SECRET', 'CHANGE THIS');    // What's your Secret key
+
+// Google 
+define('G_Client_ID', 'CHANGE THIS'); // Get a Client ID from https://console.developers.google.com/projectselector/apis/library
+define('G_Client_Secret', 'CHANGE THIS'); // What's your Secret ID
+define('G_Redirect_Uri', 'http://urltoyour/installation/oauth/google.php'); // Leave this as is
+define('G_Application_Name', 'Paste'); // Make sure this matches the name of your application
      	
